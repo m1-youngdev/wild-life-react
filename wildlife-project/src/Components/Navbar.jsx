@@ -9,11 +9,11 @@ function Navbar() {
            </div>
            <div>
             <ul className='flex gap-[20px]'>
-                <li> <a href='#' className='font-montserrat text-[18px] font-semibold'>Home</a></li>
-                <li> <a href='#' className='font-montserrat text-[18px] font-semibold'>Animals</a></li>
-                <li> <a href='#' className='font-montserrat text-[18px] font-semibold'>About</a></li>
-                <li> <a href='#' className='font-montserrat text-[18px] font-semibold bg-[#71AC8BE6] text-white p-[10px] rounded-lg'>Discover More</a></li>
-                <li> <a href='#' className='font-montserrat text-[18px] font-semibold'>Login</a></li>
+                <li> <a href='#' className='font-montserrat text-[18px] font-semibold hover:text-[#71AC8BE6]'>Home</a></li>
+                <li> <a href='#' className='font-montserrat text-[18px] font-semibold hover:text-[#71AC8BE6]'>Animals</a></li>
+                <li> <a href='#' className='font-montserrat text-[18px] font-semibold hover:text-[#71AC8BE6]'>About</a></li>
+                <li> <a href='#' className='font-montserrat text-[18px] font-semibold bg-[#71AC8B80] text-white p-[10px] rounded-lg hover:bg-[#71AC8BE6]'>Discover More</a></li>
+                <li> <a href='#' className='font-montserrat text-[18px] font-semibold hover:text-[#71AC8BE6]'>Login</a></li>
             </ul>
            </div>
 
