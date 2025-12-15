@@ -1,37 +1,50 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
+import { slider1Data } from "../data/slider1Data";
 
 function Slider1() {
+  const [index, setIndex] = useState(0);
+
+  const nextSlide = () => {
+    setIndex((prev) => (prev + 1) % slider1Data.length);
+  };
+
+  const prevSlide = () => {
+    setIndex((prev) => (prev === 0 ? slider1Data.length - 1 : prev - 1));
+  };
+
+   const { image, title, desc } = slider1Data[index];
   return (
-    <div className='w-screen'>
-        <div className="slider w-screen flex justify-center pt-[50px] mb-[40px]">
-            <div className="card1 left-[170px] w-2/12 transform -rotate-12 rounded-lg shadow-lg shadow-[#242A26] hover:rotate-0 hover:scale-110 ease-in-out duration-500 z-20">
-                <img src='https://res.cloudinary.com/dwmgepoeg/image/upload/v1764948918/two-deers-desert-area_adywzk.jpg'
-                className='rounded-lg'
-                />
-            </div>
-            <div className="card1  w-2/12 transform -rotate-6 rounded-lg shadow-lg shadow-[#242A26] hover:rotate-0 hover:scale-110 ease-in-out duration-500 z-20">
-                <img src='https://res.cloudinary.com/dwmgepoeg/image/upload/v1764949539/aa229ea6e6b81342010ea4b5564a9980_k5ndja.jpg'
-                className='rounded-lg'
-                />
-            </div>
-            <div className="card1 left-[850px] w-2/12 transform rounded-lg shadow-lg shadow-[#242A26] hover:scale-110 ease-in-out duration-500 z-20">
-                <img src='https://res.cloudinary.com/dwmgepoeg/image/upload/v1764948909/african-leopard-sitting-tree-looking-around-jungle_mwnuvv.jpg'
-                className='rounded-lg'
-                />
-            </div>
-            <div className="card1 left-[850px] w-2/12 transform rotate-6 rounded-lg shadow-lg shadow-[#242A26] hover:rotate-0 hover:scale-110 ease-in-out duration-500 z-20">
-                <img src='https://res.cloudinary.com/dwmgepoeg/image/upload/v1764948909/african-leopard-sitting-tree-looking-around-jungle_mwnuvv.jpg'
-                className='rounded-lg'
-                />
-            </div>
-            <div className="card1 left-[850px] w-2/12 transform rotate-12 rounded-lg shadow-lg shadow-[#242A26] hover:rotate-0 hover:scale-110 ease-in-out duration-500 z-20">
-                <img src='https://res.cloudinary.com/dwmgepoeg/image/upload/v1764948909/african-leopard-sitting-tree-looking-around-jungle_mwnuvv.jpg'
-                className='rounded-lg'
-                />
-            </div>
+    <div className="w-screen">
+      <div className="w-9/12 flex mt-20 mb-10">
+        <div className="img w-6/12">
+          <img
+            src= {image}
+            alt="Lion-img"
+            className="w-full"
+          />
         </div>
+        <div className="description w-6/12 p-7 bg-[#71AC8B]">
+          <h2 className="font-montserrat font-semibold text-2xl text-white">
+            {title}
+          </h2>
+          <p className="font-montserrat mt-3 text-white text-[16px]">
+            {desc}
+          </p>
+          <button 
+          onClick={prevSlide}
+          className="w-2/12 p-2 mt-5 border border-white text-white rounded-xl">
+            Prev
+          </button>
+          <button 
+          onClick={nextSlide}
+          className="w-2/12 p-2 mt-5 border border-white ml-5 text-white rounded-xl">
+            Next
+          </button>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Slider1
+export default Slider1;
