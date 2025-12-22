@@ -14,9 +14,10 @@ function Slider1() {
   };
 
    const { image, title, desc } = slider1Data[index];
+
   return (
-    <div className="w-screen">
-      <div className="w-9/12 flex mt-20 mb-10">
+    <div className="max-w-screen">
+      <div className="w-10/12 flex mt-20 mb-10">
         <div className="img w-6/12">
           <img
             src= {image}
@@ -25,7 +26,7 @@ function Slider1() {
           />
         </div>
         <div className="description w-6/12 p-7 bg-[#71AC8B]">
-          <h2 className="font-montserrat font-semibold text-2xl text-white">
+          <h2 className="font-montserrat font-semibold text-3xl text-white">
             {title}
           </h2>
           <p className="font-montserrat mt-3 text-white text-[16px]">
@@ -33,12 +34,12 @@ function Slider1() {
           </p>
           <button 
           onClick={prevSlide}
-          className="w-2/12 p-2 mt-5 border border-white text-white rounded-xl">
+          className="w-2/12 p-2 mt-20 border border-white text-white rounded-xl">
             Prev
           </button>
           <button 
           onClick={nextSlide}
-          className="w-2/12 p-2 mt-5 border border-white ml-5 text-white rounded-xl">
+          className="w-2/12 p-2 mt-20 border border-white ml-5 text-white rounded-xl">
             Next
           </button>
         </div>
