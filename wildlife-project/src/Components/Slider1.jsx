@@ -17,7 +17,7 @@ function Slider1() {
 
   return (
     <div className="max-w-screen">
-      <div className="w-10/12 flex mt-20 mb-10">
+      <div className="slide1 w-11/12 flex mt-20 mb-10">
         <div className="img w-6/12">
           <img
             src= {image}
@@ -34,12 +34,12 @@ function Slider1() {
           </p>
           <button 
           onClick={prevSlide}
-          className="w-2/12 p-2 mt-20 border border-white text-white rounded-xl">
+          className="w-3/12 p-2 mt-7 border border-white text-white rounded-xl">
             Prev
           </button>
           <button 
           onClick={nextSlide}
-          className="w-2/12 p-2 mt-20 border border-white ml-5 text-white rounded-xl">
+          className="w-3/12 p-2 mt-7 border border-white ml-5 text-white rounded-xl">
             Next
           </button>
         </div>

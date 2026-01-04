@@ -15,7 +15,7 @@ export const slider2Data = [
     image: "https://res.cloudinary.com/dwmgepoeg/image/upload/v1765995142/cheetah-grassland-national-park-africa_vsfg9m.jpg",
     image2: "https://res.cloudinary.com/dwmgepoeg/image/upload/v1765995216/32427_awzjqy.jpg",
     desc: "Cheetahs are disappearing from the wild at a high rate. Protecting these majestic predators is essential—not just for their survival, but for the health of the wild landscapes they roam.",
-    desc2: "Cheetahs, the fastest land animals on Earth, are disappearing from the wild at an alarming rate. Habitat loss, human-wildlife conflict, and illegal wildlife trade are driving their numbers down, leaving fewer than 7,000 individuals in existence."
+    desc2: "The fastest land animals on Earth, are disappearing from the wild fast.Human-wildlife conflict, and illegal wildlife trade are driving their numbers down, leaving fewer than 7,000 individuals in existence."
   },
   {
     id: 0o3,

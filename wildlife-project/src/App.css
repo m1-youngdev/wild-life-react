@@ -1,0 +1,400 @@
+@media (min-width: 320px) {
+    .footercontainer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footercontainer h2{
+        font-size: 20px;
+    }
+    .footercontainer p{
+        font-size: 14px;
+    }
+    .footercontainer a{
+        font-size: 14px;
+    }
+    .content{
+        width: 100%;
+    }
+    .footerBelow p{
+        font-size: 14px;
+    }
+    .quicklinks{
+        align-items: start;
+    }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 10px 10px;
+        width: 90%;
+    }
+    .events{
+        display: flex;
+        justify-content: left;
+        padding: 20px;
+    }
+    .event-container{
+        margin-top: 50px;
+    }
+    .slide2{
+        width: 90%;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .slide3{
+        width: 90%;
+        display: none;
+    }
+    .slide2 .description{
+        width: 100%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .slide2 button{
+        width: 30%;
+    }
+    .slide1{
+        display: none;
+    }
+    .hero-content{
+        width: 90%;
+        padding: 150px 20px 0px 20px;
+    }
+    .hero-content h2{
+        font-size: 32px;
+    }
+    .hero-content h3{
+        font-size: 20px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .links{
+        display: none;
+    }
+    .nav{
+        padding: 20px 15px;
+    }
+    .nav h1{
+        font-size: 28px;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .footercontainer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footercontainer h2{
+        font-size: 20px;
+    }
+    .footercontainer p{
+        font-size: 14px;
+    }
+    .footercontainer a{
+        font-size: 14px;
+    }
+    .content{
+        width: 100%;
+    }
+    .footerBelow p{
+        font-size: 14px;
+    }
+    .quicklinks{
+        align-items: start;
+    }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 10px 10px;
+        width: 90%;
+    }
+    .events{
+        display: flex;
+        justify-content: left;
+        padding: 20px;
+    }
+    .event-container{
+        margin-top: 50px;
+    }
+    .slide2{
+        width: 90%;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .slide3{
+        width: 90%;
+        display: none;
+    }
+    .slide2 .description{
+        width: 100%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .slide2 button{
+        width: 30%;
+    }
+    .slide1{
+        display: none;
+    }
+    .hero-content{
+        width: 90%;
+        padding: 150px 20px 0px 20px;
+    }
+    .hero-content h2{
+        font-size: 32px;
+    }
+    .hero-content h3{
+        font-size: 20px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .links{
+        display: none;
+    }
+    .nav{
+        padding: 20px 15px;
+    }
+    .nav h1{
+        font-size: 28px;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .footercontainer{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .footercontainer h2{
+        font-size: 22px;
+    }
+    .footercontainer p{
+        font-size: 15px;
+    }
+    .footercontainer a{
+        font-size: 15px;
+    }
+    .content{
+        width: 100%;
+    }
+    .footerBelow p{
+        font-size: 14px;
+    }
+    .quicklinks{
+        align-items: start;
+    }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 10px 10px;
+        width: 70%;
+    }
+    .events{
+        display: flex;
+        justify-content: left;
+        padding: 20px 20px 20px 125px;
+    }
+    .event-container{
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+    .slide2{
+        width: 80%;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .slide3{
+        width: 90%;
+        display: none;
+    }
+    .slide2 .description{
+        width: 100%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 .img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .slide2 img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .slide2 button{
+        width: 25%;
+    }
+    .slide1{
+        display: none;
+    }
+    .hero-content{
+        width: 70%;
+        padding: 150px 20px 0px 20px;
+    }
+    .hero-content h2{
+        font-size: 45px;
+    }
+    .hero-content h3{
+        font-size: 24px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .links{
+        display: none;
+    }
+    .nav{
+        padding: 20px 25px;
+        align-items: center;
+    }
+    .nav h1{
+        font-size: 35px;
+    }
+    .hamburger{
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .footercontainer{
+        flex-direction: row;
+        padding: 40px;
+    }
+    .footercontainer h2{
+        font-size: 25px;
+    }
+    .footercontainer p{
+        font-size: 16px;
+    }
+    .footercontainer a{
+        font-size: 16px;
+    }  
+    .footerBelow p{
+        font-size: 14px;
+    }
+    .quicklinks{
+        align-items: start;
+    }
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding: 10px 10px;
+        width: 90%;
+    }
+    .events{
+        display: flex;
+        justify-content: left;
+        padding-left: 65px;
+    }
+    .event-container{
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+    .slide2{
+        width: 90%;
+        flex-direction: row;
+        border-radius: 15px;
+    }
+    .slide3{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+    .slide2 .description{
+        width: 50%;
+        border-radius: 0px 15px 0px 15px;
+    }
+    .slide2 .img{
+        width: 50%;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .slide2 img{
+        width: 100%;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .slide3 .description{
+        width: 50%;
+        border-radius: 0px 15px 0px 15px;
+    }
+    .slide3 .img{
+        width: 50%;
+        border-radius: 0px 15px 0px 0px;
+    }
+    .slide3 img{
+        width: 100%;
+        border-radius: 15px 0px 15px 0px;
+    }
+
+    .slide2 button{
+        width: 30%;
+    }
+    .slide1{
+        display: flex;
+    }
+    .hero-content{
+        width:60%;
+        padding: 150px 20px 0px 20px;
+    }
+    .hero-content h2{
+        font-size: 60px;
+    }
+    .hero-content h3{
+        font-size: 28px;
+    }
+    .hero-content p{
+        font-size: 18px;
+    }
+    .links{
+        display: block;
+    }
+    .nav{
+        padding: 20px 25px;
+        align-items: center;
+    }
+    .nav h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .hamburger{
+        display: none;
+    }
+
+
+}

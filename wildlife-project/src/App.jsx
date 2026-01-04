@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Slider1 from './Components/Slider1';
 import Slider2 from './Components/Slider2';
 import Events from './Components/Events';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Slider1 />
     <Slider2 /> 
     <Events />
+    <Footer />
     </>
   )
 }

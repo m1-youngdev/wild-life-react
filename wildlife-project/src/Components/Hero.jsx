@@ -10,7 +10,7 @@ function Hero() {
           <h3 className="font-montserrat text-2xl font-semibold">
             <span className="text-[#71AC8BE6]">Keep Saving</span> All Animals
           </h3>
-          <p className="font-montserrat text-xl">
+          <p className="font-montserrat text-xl text-[16px]">
             Protect animals from poaching, protect the future of animal as
             living things on earth.
           </p>
