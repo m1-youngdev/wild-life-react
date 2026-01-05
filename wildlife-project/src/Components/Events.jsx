@@ -1,8 +1,38 @@
 import React from "react";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Events() {
+  const cardsRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        cardsRef.current,
+        { opacity: 0, y: 60 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          ease: "power3.out",
+          stagger: 0.2,
+          scrollTrigger: {
+            trigger: cardsRef.current,
+            start: "top bottom", // triggers when first card enters viewport
+            once: true, // reveal only once
+          },
+        }
+      );
+    });
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <div className="event-container bg-[#71AC8b] bg-opacity-15">
+    <div ref={cardsRef} className="event-container bg-[#71AC8b] bg-opacity-15">
       <div className="events w-10/12 pl-44 pt-8">
         <h2 className="font-montserrat font-semibold text-3xl mb-3">Events</h2>
       </div>
