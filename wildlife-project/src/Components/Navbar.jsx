@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiMenu } from "react-icons/fi";
 
-function Navbar() {
+function Navbar({ onMenuClick }) {
   return (
     <div>
         <nav className='nav w-screen flex justify-between items-center px-[70px] py-[20px] fixed'>
@@ -18,7 +18,7 @@ function Navbar() {
             </ul>
            </div>
            <div className="hamburger hidden">
-              <FiMenu className='ham text-2xl text-[#71AC8BE6]'/>
+              <FiMenu onClick={onMenuClick} className='ham text-2xl text-[#71AC8BE6]'/>
             </div>
 
         </nav>
